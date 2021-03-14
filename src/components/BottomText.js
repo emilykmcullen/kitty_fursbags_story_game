@@ -1,15 +1,11 @@
 import React, { useEffect, useState } from "react";
-import * as data from "../scenes.json";
 
 
-const BottomText = ({sceneId, data}) => {
-
-    const scene = data.find(element => element.id===sceneId)
-
+const BottomText = ({sceneId, sceneData}) => {
 
     return (
         <div>
-            {scene.bottom_text}
+            {sceneData.bottom_text}
         </div>
     );
 }
