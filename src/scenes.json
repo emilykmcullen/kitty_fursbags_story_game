@@ -14,7 +14,8 @@
             }
         ],
         "image": "",
-        "next": { "is_true" : false, "next_scene_id" : null }
+        "next": false,
+        "next_scene_id": null
     },
     {
         "id": 2,
@@ -29,7 +30,8 @@
             "next_scene_id":3
         }],
         "image": "",
-        "next": { "is_true" : false, "next_scene_id" : null }
+        "next": false,
+        "next_scene_id": null
     },
     {
         "id": 3,
@@ -44,7 +46,8 @@
             "next_scene_id":4
         }],
         "image": "",
-        "next": { "is_true" : false, "next_scene_id" : null }
+        "next": false,
+        "next_scene_id": null
     },
     {
         "id": 4,
@@ -59,7 +62,8 @@
             "next_scene_id":5
         }],
         "image": "",
-        "next": { "is_true" : false, "next_scene_id" : null }
+        "next": false,
+        "next_scene_id": null
     },
     {
         "id": 5,
@@ -74,7 +78,8 @@
             "next_scene_id":6
         }],
         "image": "",
-        "next": { "is_true" : false, "next_scene_id" : null }
+        "next": false,
+        "next_scene_id": null
     },
     {
         "id": 6,
@@ -89,7 +94,8 @@
             "next_scene_id": null
         }],
         "image": "",
-        "next": { "is_true" : true, "next_scene_id" : 7 }
+        "next": true,
+        "next_scene_id": 7
     },
     {
         "id": 7,
@@ -104,7 +110,8 @@
             "next_scene_id": null
         }],
         "image": "",
-        "next": { "is_true" : true, "next_scene_id" : 8 }
+        "next": true,
+        "next_scene_id": 8
     },
     {
         "id": 8,
@@ -119,7 +126,8 @@
             "next_scene_id":9
         }],
         "image": "",
-        "next": { "is_true" : false, "next_scene_id" : false }
+        "next": false,
+        "next_scene_id": null
     },
     {
         "id": 9,
@@ -134,7 +142,8 @@
             "next_scene_id": null
         }],
         "image": "",
-        "next": { "is_true" : true, "next_scene_id" : 10 }
+        "next": true,
+        "next_scene_id": 10
     },
     {
         "id": 10,
@@ -149,7 +158,8 @@
             "next_scene_id": null
         }],
         "image": "",
-        "next": { "is_true" : true, "next_scene_id" : 11 }
+        "next": true,
+        "next_scene_id": 11
     },
     {
         "id": 11,
@@ -164,6 +174,7 @@
             "next_scene_id": null
         }],
         "image": "",
-        "next": null
+        "next": false,
+        "next_scene_id": null
     }
 ]

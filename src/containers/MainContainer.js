@@ -11,6 +11,7 @@ const MainContainer = () => {
    const [allData, setAllData] = useState(data.default);
    const [currentSceneData, setcurrentSceneData] = useState({});
    const [isLoaded, setIsLoaded] = useState(false);
+   const [isNotChoice, setIsNotChoice] = useState(false);
 
 
    useEffect(() => {
@@ -24,8 +25,10 @@ const MainContainer = () => {
             return element.id === currentSceneId
         })
         setcurrentSceneData(sceneData);
-        setIsLoaded(true);
+        setIsLoaded(true)
    }
+
+
 
    const handleClick = (data) => {
        setIsLoaded(false);
@@ -42,8 +45,8 @@ const MainContainer = () => {
             <TopText sceneId={currentSceneId} sceneData={currentSceneData}/>
             {/* <MainImage sceneId={currentSceneId} data={allData}/> */}
             <BottomText sceneId={currentSceneId} sceneData={currentSceneData}/>
-            {isLoaded && <ChoiceButton sceneId={currentSceneId} sceneData={currentSceneData} allData={allData} isLoaded={isLoaded} handleClick={handleClick}/> }
-            <NextButton sceneId={currentSceneId} sceneData={currentSceneData}/>
+            {isLoaded && !currentSceneData.next && <ChoiceButton sceneId={currentSceneId} sceneData={currentSceneData} allData={allData} isLoaded={isLoaded} handleClick={handleClick}/> }
+            {currentSceneData.next && <NextButton sceneData={currentSceneData} handleClick={handleClick} /> }
         </div>
         
     );

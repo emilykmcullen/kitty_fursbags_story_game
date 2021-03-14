@@ -1,11 +1,7 @@
 import React, { useEffect, useState } from "react";
 
 
-const ChoiceButton = ({sceneId, sceneData, allData, isLoaded, handleClick}) => {
-
-    if(!isLoaded){
-        return <h1>Loading...</h1>
-    }
+const ChoiceButton = ({ sceneData, handleClick}) => {
     
     const myButtons = sceneData.buttons.map((b, key) => {
         return (
