@@ -4,6 +4,7 @@ import ChoiceButton from "../components/ChoiceButton";
 import MainImage from "../components/MainImage";
 import NextButton from "../components/NextButton";
 import TopText from "../components/TopText";
+import EndScene from "../components/EndScene";
 import * as data from "../scenes.json";
 
 const MainContainer = () => {
@@ -45,8 +46,9 @@ const MainContainer = () => {
             <TopText sceneId={currentSceneId} sceneData={currentSceneData}/>
             <MainImage sceneId={currentSceneId} sceneData={currentSceneData}/>
             <BottomText sceneId={currentSceneId} sceneData={currentSceneData}/>
-            {isLoaded && !currentSceneData.next && <ChoiceButton sceneId={currentSceneId} sceneData={currentSceneData} allData={allData} isLoaded={isLoaded} handleClick={handleClick}/> }
-            {currentSceneData.next && <NextButton sceneData={currentSceneData} handleClick={handleClick} /> }
+            {isLoaded && !currentSceneData.next && !currentSceneData.end && <ChoiceButton sceneId={currentSceneId} sceneData={currentSceneData} allData={allData} isLoaded={isLoaded} handleClick={handleClick}/> }
+            {currentSceneData.next && !currentSceneData.end && <NextButton sceneData={currentSceneData} handleClick={handleClick} /> }
+            {currentSceneData.end && <EndScene/>}
         </div>
         
     );

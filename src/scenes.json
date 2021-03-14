@@ -15,7 +15,8 @@
         ],
         "image": "https://kitty-fursbags.s3.eu-west-2.amazonaws.com/2+(1).svg",
         "next": false,
-        "next_scene_id": null
+        "next_scene_id": null,
+        "end":false
     },
     {
         "id": 2,
@@ -31,7 +32,8 @@
         }],
         "image": "https://kitty-fursbags.s3.eu-west-2.amazonaws.com/2+(1).svg",
         "next": false,
-        "next_scene_id": null
+        "next_scene_id": null,
+        "end":false
     },
     {
         "id": 3,
@@ -47,12 +49,13 @@
         }],
         "image": "https://kitty-fursbags.s3.eu-west-2.amazonaws.com/3.svg",
         "next": false,
-        "next_scene_id": null
+        "next_scene_id": null,
+        "end":false
     },
     {
         "id": 4,
-        "top_text" : ["It is time for her to hit the streets,", "she draws on an eyebrow and heads out the door."],
-        "bottom_text" : null,
+        "top_text" : ["It is time for her to hit the streets."],
+        "bottom_text" : [ "She draws on an eyebrow and heads out the door."],
         "buttons":[ {
             "text": "Do something",
             "next_scene_id": 3
@@ -63,7 +66,8 @@
         }],
         "image": "",
         "next": false,
-        "next_scene_id": null
+        "next_scene_id": null,
+        "end":false
     },
     {
         "id": 5,
@@ -79,7 +83,8 @@
         }],
         "image": "",
         "next": false,
-        "next_scene_id": null
+        "next_scene_id": null,
+        "end":false
     },
     {
         "id": 6,
@@ -95,11 +100,12 @@
         }],
         "image": "",
         "next": true,
-        "next_scene_id": 7
+        "next_scene_id": 7,
+        "end":false
     },
     {
         "id": 7,
-        "top_text" : ["Suddenly, it all becomes too much for Polly Cat,","she was trying to keep it together, but..."],
+        "top_text" : ["Suddenly, it all becomes too much for Polly Cat,"," she was trying to keep it together, but..."],
         "bottom_text" : null,
         "buttons": [{
             "text": null,
@@ -111,7 +117,8 @@
         }],
         "image": "https://kitty-fursbags.s3.eu-west-2.amazonaws.com/7.svg",
         "next": true,
-        "next_scene_id": 8
+        "next_scene_id": 8,
+        "end":false
     },
     {
         "id": 8,
@@ -127,12 +134,13 @@
         }],
         "image": "https://kitty-fursbags.s3.eu-west-2.amazonaws.com/8.svg",
         "next": false,
-        "next_scene_id": null
+        "next_scene_id": null,
+        "end":false
     },
     {
         "id": 9,
-        "top_text" : ["Kitty decides to take action.", "She begins to recite her letter from memory."],
-        "bottom_text" : "",
+        "top_text" : ["Kitty decides to take action."],
+        "bottom_text" : ["She begins to recite her letter from memory."],
         "buttons": [{
             "text": null,
             "next_scene_id": null
@@ -143,7 +151,8 @@
         }],
         "image": "https://kitty-fursbags.s3.eu-west-2.amazonaws.com/9.svg",
         "next": true,
-        "next_scene_id": 10
+        "next_scene_id": 10,
+        "end":false
     },
     {
         "id": 10,
@@ -159,7 +168,8 @@
         }],
         "image": "https://kitty-fursbags.s3.eu-west-2.amazonaws.com/10.svg",
         "next": true,
-        "next_scene_id": 11
+        "next_scene_id": 11,
+        "end":false
     },
     {
         "id": 11,
@@ -175,6 +185,7 @@
         }],
         "image": "https://kitty-fursbags.s3.eu-west-2.amazonaws.com/11.svg",
         "next": false,
-        "next_scene_id": null
+        "next_scene_id": null,
+        "end":true
     }
 ]
