@@ -13,7 +13,7 @@
             "next_scene_id":2
             }
         ],
-        "image": "",
+        "image": "https://kitty-fursbags.s3.eu-west-2.amazonaws.com/2+(1).svg",
         "next": false,
         "next_scene_id": null
     },
@@ -29,7 +29,7 @@
             "text":"Slam door",
             "next_scene_id":3
         }],
-        "image": "",
+        "image": "https://kitty-fursbags.s3.eu-west-2.amazonaws.com/2+(1).svg",
         "next": false,
         "next_scene_id": null
     },
@@ -45,7 +45,7 @@
             "text":"Go out",
             "next_scene_id":4
         }],
-        "image": "",
+        "image": "https://kitty-fursbags.s3.eu-west-2.amazonaws.com/3.svg",
         "next": false,
         "next_scene_id": null
     },
@@ -109,7 +109,7 @@
             "text": null,
             "next_scene_id": null
         }],
-        "image": "",
+        "image": "https://kitty-fursbags.s3.eu-west-2.amazonaws.com/7.svg",
         "next": true,
         "next_scene_id": 8
     },
@@ -125,7 +125,7 @@
             "text":"Take decisive action",
             "next_scene_id":9
         }],
-        "image": "",
+        "image": "https://kitty-fursbags.s3.eu-west-2.amazonaws.com/8.svg",
         "next": false,
         "next_scene_id": null
     },
@@ -141,7 +141,7 @@
             "text": null,
             "next_scene_id": null
         }],
-        "image": "",
+        "image": "https://kitty-fursbags.s3.eu-west-2.amazonaws.com/9.svg",
         "next": true,
         "next_scene_id": 10
     },
@@ -157,7 +157,7 @@
             "text": null,
             "next_scene_id": null
         }],
-        "image": "",
+        "image": "https://kitty-fursbags.s3.eu-west-2.amazonaws.com/10.svg",
         "next": true,
         "next_scene_id": 11
     },
@@ -173,7 +173,7 @@
             "text": null,
             "next_scene_id": null
         }],
-        "image": "",
+        "image": "https://kitty-fursbags.s3.eu-west-2.amazonaws.com/11.svg",
         "next": false,
         "next_scene_id": null
     }

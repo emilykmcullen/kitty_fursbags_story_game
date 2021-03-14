@@ -5,8 +5,8 @@ import * as data from "../scenes.json";
 const NextButton = ({sceneData, handleClick}) => {
 
     return (
-        <div>
-            <button onClick={() => handleClick(sceneData.next_scene_id)}>Next</button>
+        <div className="next-button-div">
+            <button className="next-button" onClick={() => handleClick(sceneData.next_scene_id)}>Next</button>
         </div>
     );
 }
