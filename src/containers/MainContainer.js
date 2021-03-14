@@ -27,6 +27,11 @@ const MainContainer = () => {
         setIsLoaded(true);
    }
 
+   const handleClick = (data) => {
+       setIsLoaded(false);
+       setCurrentSceneId(data);
+   }
+
 
 
     
@@ -37,7 +42,7 @@ const MainContainer = () => {
             <TopText sceneId={currentSceneId} sceneData={currentSceneData}/>
             {/* <MainImage sceneId={currentSceneId} data={allData}/> */}
             <BottomText sceneId={currentSceneId} sceneData={currentSceneData}/>
-            {isLoaded && <ChoiceButton sceneId={currentSceneId} sceneData={currentSceneData} allData={allData} isLoaded={isLoaded}/> }
+            {isLoaded && <ChoiceButton sceneId={currentSceneId} sceneData={currentSceneData} allData={allData} isLoaded={isLoaded} handleClick={handleClick}/> }
             <NextButton sceneId={currentSceneId} sceneData={currentSceneData}/>
         </div>
         
