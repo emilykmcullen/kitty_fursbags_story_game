@@ -5,10 +5,11 @@ import MainImage from "../components/MainImage";
 import NextButton from "../components/NextButton";
 import TopText from "../components/TopText";
 import EndScene from "../components/EndScene";
+import StartButton from "../components/StartButton";
 import * as data from "../scenes.json";
 
 const MainContainer = () => {
-   const [currentSceneId, setCurrentSceneId] = useState(1);
+   const [currentSceneId, setCurrentSceneId] = useState(0);
    const [allData, setAllData] = useState(data.default);
    const [currentSceneData, setcurrentSceneData] = useState({});
    const [isLoaded, setIsLoaded] = useState(false);
@@ -46,9 +47,10 @@ const MainContainer = () => {
             <TopText sceneId={currentSceneId} sceneData={currentSceneData}/>
             <MainImage sceneId={currentSceneId} sceneData={currentSceneData}/>
             <BottomText sceneId={currentSceneId} sceneData={currentSceneData}/>
-            {isLoaded && !currentSceneData.next && !currentSceneData.end && <ChoiceButton sceneId={currentSceneId} sceneData={currentSceneData} allData={allData} isLoaded={isLoaded} handleClick={handleClick}/> }
-            {currentSceneData.next && !currentSceneData.end && <NextButton sceneData={currentSceneData} handleClick={handleClick} /> }
+            {currentSceneId!=0 && isLoaded && !currentSceneData.next && !currentSceneData.end && <ChoiceButton sceneId={currentSceneId} sceneData={currentSceneData} allData={allData} isLoaded={isLoaded} handleClick={handleClick}/> }
+            {currentSceneId!=0 &&currentSceneData.next && !currentSceneData.end && <NextButton sceneData={currentSceneData} handleClick={handleClick} /> }
             {currentSceneData.end && <EndScene/>}
+            {currentSceneId===0 && <StartButton sceneData={currentSceneData} handleClick={handleClick}/>}
         </div>
         
     );

@@ -1,11 +1,30 @@
-[
+[   
+    {
+        "id": 0,
+        "top_text" : null,
+        "bottom_text" : null,
+        "buttons": [
+            {
+            "text": null,
+            "next_scene_id": null
+            },
+            {
+            "text":null,
+            "next_scene_id":null
+            }
+        ],
+        "image": "https://kitty-fursbags.s3.eu-west-2.amazonaws.com/2+(1).svg",
+        "next": false,
+        "next_scene_id": 1,
+        "end":false
+    },
     {
         "id": 1,
         "top_text" : ["Kitty Fursbags is writing a letter."],
         "bottom_text" : ["Suddenly the doorbell goes"],
         "buttons": [
             {
-            "text": "Hide",
+            "text": "Hide away",
             "next_scene_id": 0
             },
             {
@@ -91,16 +110,16 @@
         "top_text" : ["They eat lunch but there is a tense atmosphere."],
         "bottom_text" : ["Maragaret's poncho is making everybody feel sick."],
         "buttons":[ {
-            "text": null,
-            "next_scene_id": null
+            "text": "Have realisation",
+            "next_scene_id": 15
         },
         {
-            "text": null,
-            "next_scene_id": null
+            "text": "Focus on lunch",
+            "next_scene_id": 7
         }],
         "image": "",
-        "next": true,
-        "next_scene_id": 7,
+        "next": false,
+        "next_scene_id": null,
         "end":false
     },
     {
@@ -126,7 +145,7 @@
         "bottom_text" : ["Kitty's mystery letter is covered in the poncho-induced vomit."],
         "buttons": [{
             "text": "React hysterically",
-            "next_scene_id": null
+            "next_scene_id": 12
         },
         {
             "text":"Take decisive action",
@@ -184,6 +203,159 @@
             "next_scene_id": null
         }],
         "image": "https://kitty-fursbags.s3.eu-west-2.amazonaws.com/11.svg",
+        "next": false,
+        "next_scene_id": null,
+        "end":true
+    },
+    {
+        "id": 12,
+        "top_text" : ["Kitty lets loose on her dear friend Margaret."],
+        "bottom_text" : null,
+        "buttons":[ {
+            "text": null,
+            "next_scene_id": null
+        },
+        {
+            "text": null,
+            "next_scene_id": null
+        }],
+        "image": "https://kitty-fursbags.s3.eu-west-2.amazonaws.com/12.svg",
+        "next": true,
+        "next_scene_id": 13,
+        "end":false
+    },
+    {
+        "id": 13,
+        "top_text" : ["She has had enough of this dreadful social event and flounces out of the cafe."],
+        "bottom_text" : ["Her friendship with Maraget is broken, irretrievably."],
+        "buttons":[ {
+            "text": null,
+            "next_scene_id": null
+        },
+        {
+            "text": null,
+            "next_scene_id": null
+        }],
+        "image": "https://kitty-fursbags.s3.eu-west-2.amazonaws.com/13.svg",
+        "next": true,
+        "next_scene_id": 14,
+        "end":false
+    },
+    {
+        "id": 14,
+        "top_text" : null,
+        "bottom_text" : null,
+        "buttons":[ {
+            "text": null,
+            "next_scene_id": null
+        },
+        {
+            "text": null,
+            "next_scene_id": null
+        }],
+        "image": "https://kitty-fursbags.s3.eu-west-2.amazonaws.com/14.svg",
+        "next": true,
+        "next_scene_id": 11,
+        "end": true
+    },
+    {
+        "id": 15,
+        "top_text" : ["Suddenly Kitty Fursbags is hit by a shocking realisation."],
+        "bottom_text" : null,
+        "buttons": [{
+            "text": null,
+            "next_scene_id": null
+        },
+        {
+            "text": null,
+            "next_scene_id": null
+        }],
+        "image": "https://kitty-fursbags.s3.eu-west-2.amazonaws.com/15.svg",
+        "next": true,
+        "next_scene_id": 16,
+        "end":false 
+    },
+    {
+        "id": 16,
+        "top_text" : ["She surveys the scene."],
+        "bottom_text" : null,
+        "buttons": [{
+            "text": "Stay",
+            "next_scene_id": 0
+        },
+        {
+            "text": "Scarper",
+            "next_scene_id": 17
+        }],
+        "image": "https://kitty-fursbags.s3.eu-west-2.amazonaws.com/16.svg",
+        "next": false,
+        "next_scene_id": null,
+        "end":false
+    },
+    {
+        "id": 17,
+        "top_text" : "Badly shaken, she makes her excuses and leaves.",
+        "bottom_text" : null,
+        "buttons": [{
+            "text": null,
+            "next_scene_id": null
+        },
+        {
+            "text": null,
+            "next_scene_id": null
+        }],
+        "image": "https://kitty-fursbags.s3.eu-west-2.amazonaws.com/17.svg",
+        "next": true,
+        "next_scene_id": 18,
+        "end":false
+    },
+    {
+        "id": 18,
+        "top_text" : ["Back in the safety of her own residence Kitty Fursbags curls into a ball and has a private cry."],
+        "bottom_text" : null,
+        "buttons": [{
+            "text": null,
+            "next_scene_id": null
+        },
+        {
+            "text": null,
+            "next_scene_id": null
+        }],
+        "image": "https://kitty-fursbags.s3.eu-west-2.amazonaws.com/18.svg",
+        "next": true,
+        "next_scene_id": 19,
+        "end":false
+    },
+    {
+        "id": 19,
+        "top_text" : null,
+        "bottom_text" : null,
+        "buttons": [{
+            "text": null,
+            "next_scene_id": null
+        },
+        {
+            "text": null,
+            "next_scene_id": null
+        }],
+        "image": "https://kitty-fursbags.s3.eu-west-2.amazonaws.com/19.svg",
+        "next": true,
+        "next_scene_id": 20,
+        "end":false
+    },
+    {
+        "id": 20,
+        "top_text" : ["And then, utterly exhausted by this rollercoaster of emotions, she falls asleep with her eyebrow still on."],
+        "bottom_text" : null,
+        "buttons": [{
+            "text": null,
+            "next_scene_id": null
+        },
+        {
+            "text": null,
+            "next_scene_id": null
+        }],
+        "image": "https://kitty-fursbags.s3.eu-west-2.amazonaws.com/20.svg",
         "next": false,
         "next_scene_id": null,
         "end":true
