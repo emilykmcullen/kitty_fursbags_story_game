@@ -16,7 +16,6 @@ code {
 
 .top-text {
   text-align: center;
-  margin-top: 50px;
   
 }
 
@@ -30,11 +29,17 @@ code {
   font-weight: 700;
 }
 
+.main-image-div{
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
 .main-image {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  /* width: 50%; */
+  height: 400px;
 }
 
 .choice-button {
@@ -57,7 +62,7 @@ code {
 }
 
 .choice-button-div {
-  margin-top: 30px;
+  
   display: flex;
   justify-content: center;
   
@@ -87,3 +92,13 @@ code {
 
   
 }
+
+.main-content-div{
+  height: 500px;
+  margin-top: 50px;
+}
+
+.buttons-div{
+  margin-top: 80px;
+}
+

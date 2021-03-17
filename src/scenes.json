@@ -13,7 +13,7 @@
             "next_scene_id":null
             }
         ],
-        "image": "https://kitty-fursbags.s3.eu-west-2.amazonaws.com/2+(1).svg",
+        "image": "https://kitty-fursbags.s3.eu-west-2.amazonaws.com/0.svg",
         "next": false,
         "next_scene_id": 1,
         "end":false
@@ -24,15 +24,15 @@
         "bottom_text" : ["Suddenly the doorbell goes"],
         "buttons": [
             {
-            "text": "Hide away",
-            "next_scene_id": 0
+            "text": "Hiss at door",
+            "next_scene_id": 21
             },
             {
             "text":"Answer doorbell",
             "next_scene_id":2
             }
         ],
-        "image": "https://kitty-fursbags.s3.eu-west-2.amazonaws.com/2+(1).svg",
+        "image": "https://kitty-fursbags.s3.eu-west-2.amazonaws.com/1.svg",
         "next": false,
         "next_scene_id": null,
         "end":false
@@ -42,33 +42,33 @@
         "top_text" : ["It is a package for her"],
         "bottom_text" : null,
         "buttons":[ {
-            "text": "Do something",
-            "next_scene_id": 0
+            "text": "Ask for clarification",
+            "next_scene_id": 25
         },
         {
             "text":"Slam door",
             "next_scene_id":3
         }],
-        "image": "https://kitty-fursbags.s3.eu-west-2.amazonaws.com/2+(1).svg",
+        "image": "https://kitty-fursbags.s3.eu-west-2.amazonaws.com/2.svg",
         "next": false,
         "next_scene_id": null,
         "end":false
     },
     {
         "id": 3,
-        "top_text" : null,
+        "top_text" : ["Kitty does not appreciate such daft comments, she slams the door."],
         "bottom_text" : ["Inside the package is a small leopard print hat"],
         "buttons": [{
-            "text": "Do something",
-            "next_scene_id": 3
+            "text": null,
+            "next_scene_id": null
         },
         {
-            "text":"Go out",
-            "next_scene_id":4
+            "text":null,
+            "next_scene_id":null
         }],
         "image": "https://kitty-fursbags.s3.eu-west-2.amazonaws.com/3.svg",
-        "next": false,
-        "next_scene_id": null,
+        "next": true,
+        "next_scene_id": 4,
         "end":false
     },
     {
@@ -76,14 +76,14 @@
         "top_text" : ["It is time for her to hit the streets."],
         "bottom_text" : [ "She draws on an eyebrow and heads out the door."],
         "buttons":[ {
-            "text": "Do something",
+            "text": "Take a detour",
             "next_scene_id": 3
         },
         {
             "text":"Meet friends",
             "next_scene_id":5
         }],
-        "image": "",
+        "image": "https://kitty-fursbags.s3.eu-west-2.amazonaws.com/4.svg",
         "next": false,
         "next_scene_id": null,
         "end":false
@@ -93,17 +93,17 @@
         "top_text" : ["At the cafe her friends are angry"],
         "bottom_text" : "",
         "buttons": [{
-            "text": "Do something",
-            "next_scene_id": 3
+            "text": null,
+            "next_scene_id": null
         },
         {
-            "text":"Eat lunch",
-            "next_scene_id":6
+            "text": null,
+            "next_scene_id": null
         }],
-        "image": "",
-        "next": false,
-        "next_scene_id": null,
-        "end":false
+        "image": "https://kitty-fursbags.s3.eu-west-2.amazonaws.com/5.svg",
+        "next": true,
+        "next_scene_id": 6,
+        "end": false
     },
     {
         "id": 6,
@@ -117,7 +117,7 @@
             "text": "Focus on lunch",
             "next_scene_id": 7
         }],
-        "image": "",
+        "image": "https://kitty-fursbags.s3.eu-west-2.amazonaws.com/6.svg",
         "next": false,
         "next_scene_id": null,
         "end":false
@@ -359,5 +359,230 @@
         "next": false,
         "next_scene_id": null,
         "end":true
+    },
+    {
+        "id": 21,
+        "top_text" : ["Kitty hisses in the direction of the door."],
+        "bottom_text" : null,
+        "buttons": [{
+            "text": null,
+            "next_scene_id": null
+        },
+        {
+            "text": null,
+            "next_scene_id": null
+        }],
+        "image": "https://kitty-fursbags.s3.eu-west-2.amazonaws.com/21.svg",
+        "next": true,
+        "next_scene_id": 22,
+        "end":false
     }
+    ,
+    {
+        "id": 22,
+        "top_text" : null,
+        "bottom_text" :["She is met with an eerie silence."],
+        "buttons": [{
+            "text": null,
+            "next_scene_id": null
+        },
+        {
+            "text": null,
+            "next_scene_id": null
+        }],
+        "image": "https://kitty-fursbags.s3.eu-west-2.amazonaws.com/22.svg",
+        "next": true,
+        "next_scene_id": 23,
+        "end":false
+    },
+    {
+        "id": 23,
+        "top_text" : null,
+        "bottom_text" : null,
+        "buttons": [{
+            "text": null,
+            "next_scene_id": null
+        },
+        {
+            "text": null,
+            "next_scene_id": null
+        }],
+        "image": "https://kitty-fursbags.s3.eu-west-2.amazonaws.com/23.svg",
+        "next": true,
+        "next_scene_id": 24,
+        "end":false
+    },
+    {
+        "id": 24,
+        "top_text" : ["Kitty curls up in her sleeping bag and leaves the uncertainties of the day behind her."],
+        "bottom_text" : null,
+        "buttons": [{
+            "text": null,
+            "next_scene_id": null
+        },
+        {
+            "text": null,
+            "next_scene_id": null
+        }],
+        "image": "https://kitty-fursbags.s3.eu-west-2.amazonaws.com/24.svg",
+        "next": false,
+        "next_scene_id": null,
+        "end":true
+    },
+    {
+        "id": 25,
+        "top_text" : null,
+        "bottom_text" : null,
+        "buttons": [{
+            "text": null,
+            "next_scene_id": null
+        },
+        {
+            "text": null,
+            "next_scene_id": null
+        }],
+        "image": "https://kitty-fursbags.s3.eu-west-2.amazonaws.com/25.svg",
+        "next": true,
+        "next_scene_id": 26,
+        "end":false
+    },
+    {
+        "id": 26,
+        "top_text" : null,
+        "bottom_text" : null,
+        "buttons": [{
+            "text": "Offer cup of tea",
+            "next_scene_id": 27
+        },
+        {
+            "text": "Express sympathy",
+            "next_scene_id": 31
+        }],
+        "image": "https://kitty-fursbags.s3.eu-west-2.amazonaws.com/26.svg",
+        "next": false,
+        "next_scene_id": null,
+        "end":false
+    },
+    {
+        "id": 27,
+        "top_text" : ["Kitty invites the postman in for a cup of tea."],
+        "bottom_text" : ["She gives him a lesson on meaningful expression."],
+        "buttons": [{
+            "text": null,
+            "next_scene_id": null
+        },
+        {
+            "text": null,
+            "next_scene_id": null
+        }],
+        "image": "https://kitty-fursbags.s3.eu-west-2.amazonaws.com/27.svg",
+        "next": true,
+        "next_scene_id": 28,
+        "end":false
+    },
+    {
+        "id": 28,
+        "top_text" : null,
+        "bottom_text" : ["Eventually, he passes the test."],
+        "buttons": [{
+            "text": null,
+            "next_scene_id": null
+        },
+        {
+            "text": null,
+            "next_scene_id": null
+        }],
+        "image": "https://kitty-fursbags.s3.eu-west-2.amazonaws.com/28.svg",
+        "next": true,
+        "next_scene_id": 29,
+        "end":false
+    },
+    {
+        "id": 29,
+        "top_text" : null,
+        "bottom_text" : null,
+        "buttons": [{
+            "text": null,
+            "next_scene_id": null
+        },
+        {
+            "text": null,
+            "next_scene_id": null
+        }],
+        "image": "https://kitty-fursbags.s3.eu-west-2.amazonaws.com/29.svg",
+        "next": true,
+        "next_scene_id": 30,
+        "end":false
+    },
+    {
+        "id": 30,
+        "top_text" : null,
+        "bottom_text" : null,
+        "buttons": [{
+            "text": null,
+            "next_scene_id": null
+        },
+        {
+            "text": null,
+            "next_scene_id": null
+        }],
+        "image": "https://kitty-fursbags.s3.eu-west-2.amazonaws.com/30.svg",
+        "next": true,
+        "next_scene_id": 300,
+        "end":false
+    },
+    {
+        "id": 300,
+        "top_text" : ["Kitty curls up in her sleeping bag and goes to sleep."],
+        "bottom_text" : ["She dreams meaningful dreams all night long."],
+        "buttons": [{
+            "text": null,
+            "next_scene_id": null
+        },
+        {
+            "text": null,
+            "next_scene_id": null
+        }],
+        "image": "https://kitty-fursbags.s3.eu-west-2.amazonaws.com/24.svg",
+        "next": null,
+        "next_scene_id": null,
+        "end":true
+    },
+    {
+        "id": 31,
+        "top_text" : null,
+        "bottom_text" : null,
+        "buttons": [{
+            "text": null,
+            "next_scene_id": null
+        },
+        {
+            "text": null,
+            "next_scene_id": null
+        }],
+        "image": "https://kitty-fursbags.s3.eu-west-2.amazonaws.com/31.svg",
+        "next": true,
+        "next_scene_id": 266,
+        "end":false
+    },
+    {
+        "id": 266,
+        "top_text" : ["Kitty closes the door gently and goes to open her delivery."],
+        "bottom_text" : ["Inside the package is a small leopard print hat"],
+        "buttons": [{
+            "text": null,
+            "next_scene_id": null
+        },
+        {
+            "text": null,
+            "next_scene_id": null
+        }],
+        "image": "https://kitty-fursbags.s3.eu-west-2.amazonaws.com/3.svg",
+        "next": true,
+        "next_scene_id": 4,
+        "end":false
+    }
+    
+    
+    
 ]

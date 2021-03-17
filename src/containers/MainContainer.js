@@ -44,13 +44,18 @@ const MainContainer = () => {
     return (
          
         <div>
-            <TopText sceneId={currentSceneId} sceneData={currentSceneData}/>
-            <MainImage sceneId={currentSceneId} sceneData={currentSceneData}/>
-            <BottomText sceneId={currentSceneId} sceneData={currentSceneData}/>
-            {currentSceneId!=0 && isLoaded && !currentSceneData.next && !currentSceneData.end && <ChoiceButton sceneId={currentSceneId} sceneData={currentSceneData} allData={allData} isLoaded={isLoaded} handleClick={handleClick}/> }
-            {currentSceneId!=0 &&currentSceneData.next && !currentSceneData.end && <NextButton sceneData={currentSceneData} handleClick={handleClick} /> }
-            {currentSceneData.end && <EndScene/>}
-            {currentSceneId===0 && <StartButton sceneData={currentSceneData} handleClick={handleClick}/>}
+            <div className="main-content-div">
+                <TopText sceneId={currentSceneId} sceneData={currentSceneData}/>
+                <MainImage sceneId={currentSceneId} sceneData={currentSceneData}/>
+                <BottomText sceneId={currentSceneId} sceneData={currentSceneData}/>
+                {currentSceneData.end && <EndScene/>}
+            </div>
+            <div className="buttons-div">
+                {currentSceneId!=0 && isLoaded && !currentSceneData.next && !currentSceneData.end && <ChoiceButton sceneId={currentSceneId} sceneData={currentSceneData} allData={allData} isLoaded={isLoaded} handleClick={handleClick}/> }
+                {currentSceneId===0 && <StartButton sceneData={currentSceneData} handleClick={handleClick}/>}
+                {currentSceneId!=0 &&currentSceneData.next && !currentSceneData.end && <NextButton sceneData={currentSceneData} handleClick={handleClick} /> }
+            </div>
+
         </div>
         
     );
