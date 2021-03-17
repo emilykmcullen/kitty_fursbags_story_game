@@ -5,7 +5,7 @@ const BackButton = ({sceneData, handleClick}) => {
     return (
         <div className="next-button-div">
             
-            <button className="back-button" onClick={() => handleClick(sceneData.previous_scene_id)}><i class="fas fa-arrow-left"></i></button>
+            <button className="back-button" onClick={() => handleClick()}><i class="fas fa-arrow-left"></i></button>
         </div>
     );
 }

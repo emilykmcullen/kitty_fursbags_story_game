@@ -15,6 +15,7 @@ const MainContainer = () => {
    const [currentSceneData, setcurrentSceneData] = useState({});
    const [isLoaded, setIsLoaded] = useState(false);
    const [isNotChoice, setIsNotChoice] = useState(false);
+   const [scenePath, setScenePath] = useState([0]);
 
 
    useEffect(() => {
@@ -33,9 +34,19 @@ const MainContainer = () => {
 
 
 
-   const handleClick = (data) => {
+   const handleClick = (sceneId) => {
        setIsLoaded(false);
-       setCurrentSceneId(data);
+       setCurrentSceneId(sceneId);
+       const newScenePath = scenePath.concat([sceneId]);
+       setScenePath(newScenePath);
+   }
+
+   const handleBackClick = () => {
+        setIsLoaded(false);
+        const index = scenePath.length - 2;
+        const newId = scenePath[index];
+        setCurrentSceneId(newId);
+        scenePath.pop();
    }
 
 
@@ -55,7 +66,7 @@ const MainContainer = () => {
                 {currentSceneId!=0 && isLoaded && !currentSceneData.next && !currentSceneData.end && <ChoiceButton sceneId={currentSceneId} sceneData={currentSceneData} allData={allData} isLoaded={isLoaded} handleClick={handleClick}/> }
                 {currentSceneId===0 && <StartButton sceneData={currentSceneData} handleClick={handleClick}/>}
                 {currentSceneId!=0 &&currentSceneData.next && !currentSceneData.end && <NextButton sceneData={currentSceneData} handleClick={handleClick} /> }
-                {currentSceneId!=0 &&currentSceneData.previous_scene_id && !currentSceneData.end && <BackButton sceneData={currentSceneData} handleClick={handleClick} /> }
+                {currentSceneId!=0 && currentSceneId!=1 && !currentSceneData.end && <BackButton sceneData={currentSceneData} handleClick={handleBackClick} /> }
             </div>
 
         </div>
