@@ -16,6 +16,7 @@
         "image": "https://kitty-fursbags.s3.eu-west-2.amazonaws.com/0.svg",
         "next": false,
         "next_scene_id": 1,
+        "previous_scene_id": null,
         "end":false
     },
     {
@@ -35,6 +36,7 @@
         "image": "https://kitty-fursbags.s3.eu-west-2.amazonaws.com/1.svg",
         "next": false,
         "next_scene_id": null,
+        "previous_scene_id": null,
         "end":false
     },
     {
@@ -52,6 +54,7 @@
         "image": "https://kitty-fursbags.s3.eu-west-2.amazonaws.com/2.svg",
         "next": false,
         "next_scene_id": null,
+        "previous_scene_id": 1,
         "end":false
     },
     {
@@ -69,6 +72,7 @@
         "image": "https://kitty-fursbags.s3.eu-west-2.amazonaws.com/3.svg",
         "next": true,
         "next_scene_id": 4,
+        "previous_scene_id": 2,
         "end":false
     },
     {
@@ -76,16 +80,17 @@
         "top_text" : ["It is time for her to hit the streets."],
         "bottom_text" : [ "She draws on an eyebrow and heads out the door."],
         "buttons":[ {
-            "text": "Take a detour",
-            "next_scene_id": 3
+            "text": null,
+            "next_scene_id": null
         },
         {
-            "text":"Meet friends",
-            "next_scene_id":5
+            "text":null,
+            "next_scene_id": null
         }],
         "image": "https://kitty-fursbags.s3.eu-west-2.amazonaws.com/4.svg",
-        "next": false,
-        "next_scene_id": null,
+        "next": true,
+        "next_scene_id": 5,
+        "previous_scene_id": 3,
         "end":false
     },
     {
@@ -103,6 +108,7 @@
         "image": "https://kitty-fursbags.s3.eu-west-2.amazonaws.com/5.svg",
         "next": true,
         "next_scene_id": 6,
+        "previous_scene_id": 5,
         "end": false
     },
     {
@@ -120,6 +126,7 @@
         "image": "https://kitty-fursbags.s3.eu-west-2.amazonaws.com/6.svg",
         "next": false,
         "next_scene_id": null,
+        "previous_scene_id": 5,
         "end":false
     },
     {
@@ -137,6 +144,7 @@
         "image": "https://kitty-fursbags.s3.eu-west-2.amazonaws.com/7.svg",
         "next": true,
         "next_scene_id": 8,
+        "previous_scene_id": 6,
         "end":false
     },
     {
@@ -154,12 +162,13 @@
         "image": "https://kitty-fursbags.s3.eu-west-2.amazonaws.com/8.svg",
         "next": false,
         "next_scene_id": null,
+        "previous_scene_id": 7,
         "end":false
     },
     {
         "id": 9,
-        "top_text" : ["Kitty decides to take action."],
-        "bottom_text" : ["She begins to recite her letter from memory."],
+        "top_text" : ["The lunch is becoming disastrous, Kitty decides to take action."],
+        "bottom_text" : ["She begins to recite her mystery letter from memory."],
         "buttons": [{
             "text": null,
             "next_scene_id": null
@@ -171,6 +180,7 @@
         "image": "https://kitty-fursbags.s3.eu-west-2.amazonaws.com/9.svg",
         "next": true,
         "next_scene_id": 10,
+        "previous_scene_id": 8,
         "end":false
     },
     {
@@ -188,6 +198,7 @@
         "image": "https://kitty-fursbags.s3.eu-west-2.amazonaws.com/10.svg",
         "next": true,
         "next_scene_id": 11,
+        "previous_scene_id": 9,
         "end":false
     },
     {
@@ -205,6 +216,7 @@
         "image": "https://kitty-fursbags.s3.eu-west-2.amazonaws.com/11.svg",
         "next": false,
         "next_scene_id": null,
+        "previous_scene_id": 10,
         "end":true
     },
     {
@@ -221,7 +233,8 @@
         }],
         "image": "https://kitty-fursbags.s3.eu-west-2.amazonaws.com/12.svg",
         "next": true,
-        "next_scene_id": 13,
+        "next_scene_id": 9,
+        "previous_scene_id": 11,
         "end":false
     },
     {
@@ -239,6 +252,7 @@
         "image": "https://kitty-fursbags.s3.eu-west-2.amazonaws.com/13.svg",
         "next": true,
         "next_scene_id": 14,
+        "previous_scene_id": 12,
         "end":false
     },
     {
@@ -256,6 +270,7 @@
         "image": "https://kitty-fursbags.s3.eu-west-2.amazonaws.com/14.svg",
         "next": true,
         "next_scene_id": 11,
+        "previous_scene_id": 13,
         "end": true
     },
     {
@@ -273,6 +288,7 @@
         "image": "https://kitty-fursbags.s3.eu-west-2.amazonaws.com/15.svg",
         "next": true,
         "next_scene_id": 16,
+        "previous_scene_id": 6,
         "end":false 
     },
     {
@@ -281,7 +297,7 @@
         "bottom_text" : null,
         "buttons": [{
             "text": "Stay",
-            "next_scene_id": 0
+            "next_scene_id": 32
         },
         {
             "text": "Scarper",
@@ -290,6 +306,7 @@
         "image": "https://kitty-fursbags.s3.eu-west-2.amazonaws.com/16.svg",
         "next": false,
         "next_scene_id": null,
+        "previous_scene_id": 15,
         "end":false
     },
     {
@@ -307,6 +324,7 @@
         "image": "https://kitty-fursbags.s3.eu-west-2.amazonaws.com/17.svg",
         "next": true,
         "next_scene_id": 18,
+        "previous_scene_id": 16,
         "end":false
     },
     {
@@ -324,6 +342,7 @@
         "image": "https://kitty-fursbags.s3.eu-west-2.amazonaws.com/18.svg",
         "next": true,
         "next_scene_id": 19,
+        "previous_scene_id": 17,
         "end":false
     },
     {
@@ -341,6 +360,7 @@
         "image": "https://kitty-fursbags.s3.eu-west-2.amazonaws.com/19.svg",
         "next": true,
         "next_scene_id": 20,
+        "previous_scene_id": 18,
         "end":false
     },
     {
@@ -358,6 +378,7 @@
         "image": "https://kitty-fursbags.s3.eu-west-2.amazonaws.com/20.svg",
         "next": false,
         "next_scene_id": null,
+        "previous_scene_id": 19,
         "end":true
     },
     {
@@ -375,6 +396,7 @@
         "image": "https://kitty-fursbags.s3.eu-west-2.amazonaws.com/21.svg",
         "next": true,
         "next_scene_id": 22,
+        "previous_scene_id": 1,
         "end":false
     }
     ,
@@ -393,6 +415,7 @@
         "image": "https://kitty-fursbags.s3.eu-west-2.amazonaws.com/22.svg",
         "next": true,
         "next_scene_id": 23,
+        "previous_scene_id": 21,
         "end":false
     },
     {
@@ -410,6 +433,7 @@
         "image": "https://kitty-fursbags.s3.eu-west-2.amazonaws.com/23.svg",
         "next": true,
         "next_scene_id": 24,
+        "previous_scene_id": 22,
         "end":false
     },
     {
@@ -427,6 +451,7 @@
         "image": "https://kitty-fursbags.s3.eu-west-2.amazonaws.com/24.svg",
         "next": false,
         "next_scene_id": null,
+        "previous_scene_id": 23,
         "end":true
     },
     {
@@ -444,6 +469,7 @@
         "image": "https://kitty-fursbags.s3.eu-west-2.amazonaws.com/25.svg",
         "next": true,
         "next_scene_id": 26,
+        "previous_scene_id": 2,
         "end":false
     },
     {
@@ -461,6 +487,7 @@
         "image": "https://kitty-fursbags.s3.eu-west-2.amazonaws.com/26.svg",
         "next": false,
         "next_scene_id": null,
+        "previous_scene_id": 25,
         "end":false
     },
     {
@@ -478,6 +505,7 @@
         "image": "https://kitty-fursbags.s3.eu-west-2.amazonaws.com/27.svg",
         "next": true,
         "next_scene_id": 28,
+        "previous_scene_id": 26,
         "end":false
     },
     {
@@ -495,6 +523,7 @@
         "image": "https://kitty-fursbags.s3.eu-west-2.amazonaws.com/28.svg",
         "next": true,
         "next_scene_id": 29,
+        "previous_scene_id": 27,
         "end":false
     },
     {
@@ -512,6 +541,7 @@
         "image": "https://kitty-fursbags.s3.eu-west-2.amazonaws.com/29.svg",
         "next": true,
         "next_scene_id": 30,
+        "previous_scene_id": 28,
         "end":false
     },
     {
@@ -529,6 +559,7 @@
         "image": "https://kitty-fursbags.s3.eu-west-2.amazonaws.com/30.svg",
         "next": true,
         "next_scene_id": 300,
+        "previous_scene_id": 29,
         "end":false
     },
     {
@@ -546,6 +577,7 @@
         "image": "https://kitty-fursbags.s3.eu-west-2.amazonaws.com/24.svg",
         "next": null,
         "next_scene_id": null,
+        "previous_scene_id": 30,
         "end":true
     },
     {
@@ -563,6 +595,7 @@
         "image": "https://kitty-fursbags.s3.eu-west-2.amazonaws.com/31.svg",
         "next": true,
         "next_scene_id": 266,
+        "previous_scene_id": 26,
         "end":false
     },
     {
@@ -580,6 +613,25 @@
         "image": "https://kitty-fursbags.s3.eu-west-2.amazonaws.com/3.svg",
         "next": true,
         "next_scene_id": 4,
+        "previous_scene_id": 31,
+        "end":false
+    },
+    {
+        "id": 32,
+        "top_text" : ["Kitty decides to take the higher ground."],
+        "bottom_text" : ["But then..."],
+        "buttons": [{
+            "text": null,
+            "next_scene_id": null
+        },
+        {
+            "text": null,
+            "next_scene_id": null
+        }],
+        "image": "https://kitty-fursbags.s3.eu-west-2.amazonaws.com/32.svg",
+        "next": true,
+        "next_scene_id": 7,
+        "previous_scene_id": 16,
         "end":false
     }
     
