@@ -124,7 +124,7 @@
     },
     {
         "id": 7,
-        "top_text" : ["Suddenly, it all becomes too much for Polly Cat,"," she was trying to keep it together, but..."],
+        "top_text" : ["Suddenly, it all becomes too much for Polly,"," she was trying to keep it together, but..."],
         "bottom_text" : null,
         "buttons": [{
             "text": null,
@@ -158,7 +158,7 @@
     },
     {
         "id": 9,
-        "top_text" : ["The lunch is becoming disastrous, Kitty decides to take action."],
+        "top_text" : ["Lunch is turning into an outright disaster, Kitty decides to take action."],
         "bottom_text" : ["She begins to recite her mystery letter from memory."],
         "buttons": [{
             "text": null,

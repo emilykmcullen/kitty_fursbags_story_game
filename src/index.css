@@ -112,6 +112,21 @@ code {
   
 }
 
+
+.back-button-test {
+  color: royalblue;
+  background-color: white;
+  border: none;
+  opacity: 0.7;
+}
+
+.back-button-test:hover {
+  color: royalblue;
+  background-color: white;
+  border: none;
+  opacity: 1;
+}
+
 .main-content-div{
   height: 500px;
   margin-top: 50px;
@@ -121,3 +136,110 @@ code {
   margin-top: 80px;
 }
 
+/* Media Queries: Tablet Portrait */
+@media screen and (max-width: 768px) {
+
+  .main-content-div {
+    text-align: center;
+  }
+  .main-image{
+    max-width: 750px;
+  }
+
+  .main-image-div{
+    padding-top:  20px;
+    padding-bottom: 20px;
+  }
+
+  .buttons-div {
+    margin-left: 40px;
+    margin-top: 50px;
+  }
+
+  .next-button-div {
+    margin-top: 15px;
+  }
+
+  .start-again{
+    margin-top: 10px;
+  }
+
+  .top-text {
+    max-width: 750px;
+    margin: 0 auto;
+  }
+
+}
+
+/* Media Queries: Phone Portrait */
+@media screen and (max-width: 450px) {
+  .main-content-div {
+    text-align: center;
+  }
+  .main-image{
+    max-width: 400px;
+  }
+
+  .main-image-div{
+    padding-top:  20px;
+    padding-bottom: 20px;
+  }
+
+  .buttons-div {
+    margin-left: 40px;
+    margin-top: 50px;
+  }
+
+  .next-button-div {
+    margin-top: 15px;
+  }
+
+  .start-again{
+    margin-top: 10px;
+    margin-left: 0px;
+  }
+
+  .top-text {
+    max-width: 395px;
+  }
+
+}
+
+/* Media Queries: Small Phone Portrait */
+@media screen and (max-width: 375px) {
+  .all-content {
+    height: 200px;
+  }
+
+  .main-content-div {
+    text-align: center;
+    max-height: 400px;
+  }
+  .main-image{
+    max-width: 340px;
+  }
+
+  .main-image-div{
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+
+  .buttons-div {
+    margin-left: 10px;
+    margin-top: 40px;
+    padding-top: 65px;
+  }
+
+  .next-button-div {
+    margin-top: 15px;
+  }
+
+  .start-again{
+    margin-top: 10px;
+  }
+
+  .top-text {
+    max-width: 350px;
+    margin: 0 auto;
+  }
+}
