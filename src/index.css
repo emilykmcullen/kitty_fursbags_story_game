@@ -93,6 +93,25 @@ code {
   
 }
 
+.back-button {
+  font-weight: 700;
+  margin-right: 10px;
+  border: none;
+  padding: 10px;
+  opacity: 0.7;
+  background-color: royalblue;
+  box-shadow: -3px 3px 4px rgb(106, 133, 216);  
+}
+
+.back-button:hover{
+  opacity: 1;
+  position: relative;
+  top: 2px;
+  box-shadow: -1px 1px 2px rgb(235, 130, 235);  
+
+  
+}
+
 .main-content-div{
   height: 500px;
   margin-top: 50px;

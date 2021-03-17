@@ -6,6 +6,7 @@ import NextButton from "../components/NextButton";
 import TopText from "../components/TopText";
 import EndScene from "../components/EndScene";
 import StartButton from "../components/StartButton";
+import BackButton from "../components/BackButton";
 import * as data from "../scenes.json";
 
 const MainContainer = () => {
@@ -54,6 +55,7 @@ const MainContainer = () => {
                 {currentSceneId!=0 && isLoaded && !currentSceneData.next && !currentSceneData.end && <ChoiceButton sceneId={currentSceneId} sceneData={currentSceneData} allData={allData} isLoaded={isLoaded} handleClick={handleClick}/> }
                 {currentSceneId===0 && <StartButton sceneData={currentSceneData} handleClick={handleClick}/>}
                 {currentSceneId!=0 &&currentSceneData.next && !currentSceneData.end && <NextButton sceneData={currentSceneData} handleClick={handleClick} /> }
+                {currentSceneId!=0 &&currentSceneData.previous_scene_id && !currentSceneData.end && <BackButton sceneData={currentSceneData} handleClick={handleClick} /> }
             </div>
 
         </div>

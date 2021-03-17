@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 
-const StartButton = ({sceneData, handleClick}) => {
+const NextButton = ({sceneData, handleClick}) => {
 
     return (
         <div className="next-button-div">
@@ -9,4 +9,4 @@ const StartButton = ({sceneData, handleClick}) => {
     );
 }
 
-export default StartButton;
+export default NextButton;
