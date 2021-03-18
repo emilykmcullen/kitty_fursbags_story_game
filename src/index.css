@@ -230,6 +230,7 @@ a:active {
 
 /* Media Queries: Small Phone Portrait */
 @media screen and (max-width: 375px) {
+  
   .all-content {
     height: 200px;
     position: relative;
@@ -241,7 +242,8 @@ a:active {
     max-height: 400px;
   }
   .main-image{
-    max-width: 340px;
+    max-width: 320px;
+    max-height: 300px;
   }
 
   .main-image-div{
@@ -250,9 +252,9 @@ a:active {
   }
 
   .buttons-div {
-    margin-left: 10px;
+    /* margin-left: 20px; */
     margin-top: 40px;
-    padding-top: 65px;
+    /* padding-top: 65px; */
   }
 
   .next-button-div {

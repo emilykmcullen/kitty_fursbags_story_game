@@ -66,7 +66,8 @@ const MainContainer = () => {
                 <BottomText sceneId={currentSceneId} sceneData={currentSceneData}/>
                 {currentSceneData.end && <EndScene/>}
             </div>
-            <div className="buttons-div">
+            <div  className="buttons-div">
+            
                 {currentSceneId!==0 && isLoaded && !currentSceneData.next && !currentSceneData.end && <ChoiceButton sceneId={currentSceneId} sceneData={currentSceneData} allData={allData} isLoaded={isLoaded} handleClick={handleClick}/> }
                 {currentSceneId===0 && <StartButton sceneData={currentSceneData} handleClick={handleClick}/>}
                 {currentSceneId!==0 &&currentSceneData.next && !currentSceneData.end && <NextButton sceneData={currentSceneData} handleClick={handleClick} /> }
