@@ -7,6 +7,7 @@ import TopText from "../components/TopText";
 import EndScene from "../components/EndScene";
 import StartButton from "../components/StartButton";
 import BackButton from "../components/BackButton";
+import Footer from "../components/Footer";
 import StartAgainButton from "../components/StartAgainButton";
 import * as data from "../scenes.json";
 
@@ -58,6 +59,7 @@ const MainContainer = () => {
     return (
          
         <div className="all-content">
+            <div className="content-wrap">
             <div className="main-content-div">
                 <TopText sceneId={currentSceneId} sceneData={currentSceneData}/>
                 <MainImage sceneId={currentSceneId} sceneData={currentSceneData}/>
@@ -70,8 +72,11 @@ const MainContainer = () => {
                 {currentSceneId!==0 &&currentSceneData.next && !currentSceneData.end && <NextButton sceneData={currentSceneData} handleClick={handleClick} /> }
                 {currentSceneData.end && <StartAgainButton handleClick={handleStartAgainClick} /> }
                 {currentSceneId!==0 && <BackButton handleClick={handleBackClick} /> } 
+                 
             </div>
-
+            </div>
+            {currentSceneId===0 && <Footer/> } 
+            
         </div>
         
     );

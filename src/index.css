@@ -136,6 +136,29 @@ code {
   margin-top: 80px;
 }
 
+.footer {
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  
+}
+
+a:link {
+  color: blue;
+}
+
+a:visited {
+  color: blue;
+}
+
+a:hover {
+  color: rgb(201, 100, 201);
+}
+
+a:active {
+  color: blue;
+}
 /* Media Queries: Tablet Portrait */
 @media screen and (max-width: 768px) {
 
@@ -209,6 +232,8 @@ code {
 @media screen and (max-width: 375px) {
   .all-content {
     height: 200px;
+    position: relative;
+    min-height: 100vh;
   }
 
   .main-content-div {
