@@ -1,4 +1,20 @@
-RewriteEngine On
-RewriteCond %{HTTP_HOST} ^kittyfursbags\.co.uk [NC]
-RewriteCond %{SERVER_PORT} 80
-RewriteRule ^(.*)$ https://kittyfursbags.co.uk/$1 [R,L]
+<IfModule mod_rewrite.c>
+
+    RewriteEngine On
+    RewriteCond %{HTTPS} off
+    RewriteCond %{REQUEST_URI} ^.$
+    RewriteRule ^(.*)$ https://kittyfursbags.co.uk/ [NC,L,R=301]
+
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME} !-l
+    RewriteCond %{HTTPS} off
+    RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [NC,L,R=301]
+
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME} !-l
+    RewriteCond %{HTTPS} on
+    RewriteRule ^(.*)$ /index.html [NC,L,QSA]
+
+</IfModule>
