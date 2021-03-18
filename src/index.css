@@ -206,12 +206,11 @@ a:active {
   }
   .main-image{
     max-width: 400px;
-    padding-bottom: 20px;
   }
 
   .main-image-div{
     padding-top:  20px;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
   }
 
   .buttons-div {
