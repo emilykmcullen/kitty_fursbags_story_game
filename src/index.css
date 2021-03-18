@@ -80,15 +80,15 @@ code {
   border: none;
   padding: 10px;
   opacity: 0.7;
-  background-color: rgb(106, 133, 216);
-  box-shadow: -3px 3px 4px royalblue;  
+  background-color: rgb(235, 130, 235);
+  box-shadow: -3px 3px 4px darkmagenta;  
 }
 
 .next-button:hover{
   opacity: 1;
   position: relative;
   top: 2px;
-  box-shadow: -1px 1px 2px royalblue;  
+  box-shadow: -1px 1px 2px darkmagenta;  
 
   
 }
