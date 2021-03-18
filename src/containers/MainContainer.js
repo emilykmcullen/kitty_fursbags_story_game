@@ -27,7 +27,7 @@ const MainContainer = () => {
             setIsLoaded(true)
         }
        fetchCurrentSceneData();
-    }, [currentSceneId]) 
+    }, [currentSceneId, allData]) 
 
 
     const handleClick = (sceneId) => {
@@ -51,6 +51,7 @@ const MainContainer = () => {
     setIsLoaded(false);
     setCurrentSceneId(0);
     setScenePath([0]);
+    setAllData(data.default)
     }
 
 

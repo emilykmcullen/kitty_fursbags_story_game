@@ -1,7 +1,7 @@
 [   
     {
         "id": 0,
-        "top_text" : null,
+        "top_text" : ["The adventures of..."],
         "bottom_text" : null,
         "buttons": [
             {
