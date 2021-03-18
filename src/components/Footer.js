@@ -5,7 +5,7 @@ const Footer = () => {
     return (
         <div className="footer-div">
             
-            <p className="footer">Created by <a href="https://portfolio.emilycullen.com" target="_blank">Emily Cullen</a></p>
+            <p className="footer">Created by <a href="https://portfolio.emilycullen.com" target="_blank" rel="noreferrer">Emily Cullen</a></p>
         </div>
     );
 }
