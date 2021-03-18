@@ -221,12 +221,12 @@
         }],
         "image": "https://kitty-fursbags.s3.eu-west-2.amazonaws.com/12.svg",
         "next": true,
-        "next_scene_id": 9,
+        "next_scene_id": 13,
         "end":false
     },
     {
         "id": 13,
-        "top_text" : ["She has had enough of this dreadful social event and flounces out of the cafe."],
+        "top_text" : ["Kitty has had enough of this dreadful social event, she flounces out of the cafe."],
         "bottom_text" : ["Her friendship with Maraget is broken, irretrievably."],
         "buttons":[ {
             "text": null,

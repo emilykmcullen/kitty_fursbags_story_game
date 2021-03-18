@@ -93,7 +93,7 @@ code {
   
 }
 
-.back-button {
+.start-again {
   font-weight: 700;
   margin-right: 10px;
   border: none;
@@ -103,24 +103,24 @@ code {
   box-shadow: -3px 3px 4px rgb(106, 133, 216);  
 }
 
-.back-button:hover{
+.start-again:hover{
   opacity: 1;
   position: relative;
   top: 2px;
-  box-shadow: -1px 1px 2px rgb(235, 130, 235);  
+  box-shadow: -1px 1px 2px rgb(106, 133, 216);  
 
   
 }
 
 
-.back-button-test {
+.back-button {
   color: royalblue;
   background-color: white;
   border: none;
   opacity: 0.7;
 }
 
-.back-button-test:hover {
+.back-button:hover {
   color: royalblue;
   background-color: white;
   border: none;
