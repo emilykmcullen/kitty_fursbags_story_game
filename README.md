@@ -23,8 +23,8 @@ might lead to them! The story uses my own comics, you can go back and forward be
 # :cat: Screenshots
 
 ### Landing Page. 
-![Landing Page](./readme_images/Start.png)
+![Landing Page](./readme_images/start.png)
 ### Choice Page.
-![Action Page](./readme_images/Action.png)
+![Action Page](./readme_images/action.png)
 ### One Possible End Page.
-![End Page](./readme_images/Ending.png)
+![End Page](./readme_images/ending.png)
