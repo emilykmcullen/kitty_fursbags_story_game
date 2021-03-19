@@ -70,6 +70,7 @@ code {
 
 .next-button-div {
   margin-top: 30px;
+  margin-right: 30px;
   display: flex;
   justify-content: center;
 }
