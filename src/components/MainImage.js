@@ -4,7 +4,7 @@ const MainImage = ({sceneData}) => {
 
     return (
         <div className="main-image-div">
-            <img className="main-image" src={sceneData.image} alt="Girl in a jacket"></img>
+            <img className="main-image" src={sceneData.image} alt={sceneData.image_alt_text}></img>
         </div>
     );
 }

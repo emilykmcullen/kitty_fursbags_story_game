@@ -14,6 +14,7 @@
             }
         ],
         "image": "https://kitty-fursbags.s3.eu-west-2.amazonaws.com/0.svg",
+        "image_alt_text":"A drawing of a cat wearing a leopard print hat",
         "next": false,
         "next_scene_id": 1,
         "end":false
@@ -33,6 +34,7 @@
             }
         ],
         "image": "https://kitty-fursbags.s3.eu-west-2.amazonaws.com/1.svg",
+        "image_alt_text":"A drawing of a cat writing a letter and saying 'The contents are a secret'",
         "next": false,
         "next_scene_id": null,
         "end":false
@@ -50,6 +52,7 @@
             "next_scene_id":3
         }],
         "image": "https://kitty-fursbags.s3.eu-west-2.amazonaws.com/2.svg",
+        "image_alt_text":"A cat receving a package from a postman. The cat expresses surprise, she only ordered the package yesterday. The postman says 'Welcome to the future!'",
         "next": false,
         "next_scene_id": null,
         "end":false
@@ -67,6 +70,7 @@
             "next_scene_id":null
         }],
         "image": "https://kitty-fursbags.s3.eu-west-2.amazonaws.com/3.svg",
+        "image_alt_text":"A cat trying on a hat in the mirror and saying 'Just ideal'",
         "next": true,
         "next_scene_id": 4,
         "end":false
@@ -84,6 +88,7 @@
             "next_scene_id": null
         }],
         "image": "https://kitty-fursbags.s3.eu-west-2.amazonaws.com/4.svg",
+        "image_alt_text":"A cat wearing leopard print shoes, hat, bag, and walking down the street",
         "next": true,
         "next_scene_id": 5,
         "end":false
@@ -101,6 +106,7 @@
             "next_scene_id": null
         }],
         "image": "https://kitty-fursbags.s3.eu-west-2.amazonaws.com/5.svg",
+        "image_alt_text":"Kitty meets two other cats at the cafe. One of them says 'We have been waiting 3 hours for you', Kitty replies 'Whoops'",
         "next": true,
         "next_scene_id": 6,
         "end": false
@@ -118,6 +124,7 @@
             "next_scene_id": 7
         }],
         "image": "https://kitty-fursbags.s3.eu-west-2.amazonaws.com/6.svg",
+        "image_alt_text":"One of the cats (called Polly) can be seen looking ill",
         "next": false,
         "next_scene_id": null,
         "end":false
@@ -135,6 +142,7 @@
             "next_scene_id": null
         }],
         "image": "https://kitty-fursbags.s3.eu-west-2.amazonaws.com/7.svg",
+        "image_alt_text":"The cat Polly vomits on the table",
         "next": true,
         "next_scene_id": 8,
         "end":false
@@ -152,6 +160,7 @@
             "next_scene_id":9
         }],
         "image": "https://kitty-fursbags.s3.eu-west-2.amazonaws.com/8.svg",
+        "image_alt_text":"A letter covered in vomit",
         "next": false,
         "next_scene_id": null,
         "end":false
@@ -169,6 +178,7 @@
             "next_scene_id": null
         }],
         "image": "https://kitty-fursbags.s3.eu-west-2.amazonaws.com/9.svg",
+        "image_alt_text":"Kitty says 'Dearest Margaret and Polly",
         "next": true,
         "next_scene_id": 10,
         "end":false
@@ -186,6 +196,7 @@
             "next_scene_id": null
         }],
         "image": "https://kitty-fursbags.s3.eu-west-2.amazonaws.com/10.svg",
+        "image_alt_text":"Kitty says 'You are my best friends",
         "next": true,
         "next_scene_id": 11,
         "end":false
@@ -203,6 +214,7 @@
             "next_scene_id": null
         }],
         "image": "https://kitty-fursbags.s3.eu-west-2.amazonaws.com/11.svg",
+        "image_alt_text":"Polly and Margaret express their joy at the letter, Kitty says 'It's my true feelings'",
         "next": false,
         "next_scene_id": null,
         "end":true
@@ -220,6 +232,7 @@
             "next_scene_id": null
         }],
         "image": "https://kitty-fursbags.s3.eu-west-2.amazonaws.com/12.svg",
+        "image_alt_text":"Kitty blames the situation on Margaret's poncho",
         "next": true,
         "next_scene_id": 13,
         "end":false
@@ -237,6 +250,7 @@
             "next_scene_id": null
         }],
         "image": "https://kitty-fursbags.s3.eu-west-2.amazonaws.com/13.svg",
+        "image_alt_text":"Kitty walks out of the restaurant, Margaret shouts 'Our friendship is over!",
         "next": true,
         "next_scene_id": 14,
         "end":false
@@ -254,6 +268,7 @@
             "next_scene_id": null
         }],
         "image": "https://kitty-fursbags.s3.eu-west-2.amazonaws.com/14.svg",
+        "image_alt_text":"A picture of a bin with Kitty's mystery letter in it",
         "next": true,
         "next_scene_id": 11,
         "end": true
@@ -271,6 +286,7 @@
             "next_scene_id": null
         }],
         "image": "https://kitty-fursbags.s3.eu-west-2.amazonaws.com/15.svg",
+        "image_alt_text":"Kitty realises she has entered a battle of the outrageous fashions with Margaret and Polly",
         "next": true,
         "next_scene_id": 16,
         "end":false 
@@ -288,6 +304,7 @@
             "next_scene_id": 17
         }],
         "image": "https://kitty-fursbags.s3.eu-west-2.amazonaws.com/16.svg",
+        "image_alt_text":"Kitty realises she is losing the battle",
         "next": false,
         "next_scene_id": null,
         "end":false
@@ -305,6 +322,7 @@
             "next_scene_id": null
         }],
         "image": "https://kitty-fursbags.s3.eu-west-2.amazonaws.com/17.svg",
+        "image_alt_text":"Kitty tells the others she must go, the others are confused",
         "next": true,
         "next_scene_id": 18,
         "end":false
@@ -322,6 +340,7 @@
             "next_scene_id": null
         }],
         "image": "https://kitty-fursbags.s3.eu-west-2.amazonaws.com/18.svg",
+        "image_alt_text":"Kitty is curled up on the floor crying",
         "next": true,
         "next_scene_id": 19,
         "end":false
@@ -339,6 +358,7 @@
             "next_scene_id": null
         }],
         "image": "https://kitty-fursbags.s3.eu-west-2.amazonaws.com/19.svg",
+        "image_alt_text":"She decides she will consult a fashion catalogue the next day",
         "next": true,
         "next_scene_id": 20,
         "end":false
@@ -356,6 +376,7 @@
             "next_scene_id": null
         }],
         "image": "https://kitty-fursbags.s3.eu-west-2.amazonaws.com/20.svg",
+        "image_alt_text":"Kitty is sleeping",
         "next": false,
         "next_scene_id": null,
         "end":true
@@ -373,6 +394,7 @@
             "next_scene_id": null
         }],
         "image": "https://kitty-fursbags.s3.eu-west-2.amazonaws.com/21.svg",
+        "image_alt_text":"Picture of Kitty hissing at the door",
         "next": true,
         "next_scene_id": 22,
         "end":false
@@ -391,6 +413,7 @@
             "next_scene_id": null
         }],
         "image": "https://kitty-fursbags.s3.eu-west-2.amazonaws.com/22.svg",
+        "image_alt_text":"Silence",
         "next": true,
         "next_scene_id": 23,
         "end":false
@@ -408,6 +431,7 @@
             "next_scene_id": null
         }],
         "image": "https://kitty-fursbags.s3.eu-west-2.amazonaws.com/23.svg",
+        "image_alt_text":"Kitty decides it's too dangerous outside, she can't go out today",
         "next": true,
         "next_scene_id": 24,
         "end":false
@@ -425,6 +449,7 @@
             "next_scene_id": null
         }],
         "image": "https://kitty-fursbags.s3.eu-west-2.amazonaws.com/24.svg",
+        "image_alt_text":"Kitty asleep in her sleeping bag",
         "next": false,
         "next_scene_id": null,
         "end":true
@@ -442,6 +467,7 @@
             "next_scene_id": null
         }],
         "image": "https://kitty-fursbags.s3.eu-west-2.amazonaws.com/25.svg",
+        "image_alt_text":"Kitty asks for an explanation of the comment, the postman says it is inexplicable",
         "next": true,
         "next_scene_id": 26,
         "end":false
@@ -459,6 +485,7 @@
             "next_scene_id": 31
         }],
         "image": "https://kitty-fursbags.s3.eu-west-2.amazonaws.com/26.svg",
+        "image_alt_text":"Kitty tells the postman not to say things he can't explain because it's vacuous, the postman says he feels vacuous",
         "next": false,
         "next_scene_id": null,
         "end":false
@@ -476,6 +503,7 @@
             "next_scene_id": null
         }],
         "image": "https://kitty-fursbags.s3.eu-west-2.amazonaws.com/27.svg",
+        "image_alt_text":"The postman and Kitty have a cup of tea, Kitty tells him they must sit in silence unless they have something meaningful to say",
         "next": true,
         "next_scene_id": 28,
         "end":false
@@ -493,6 +521,7 @@
             "next_scene_id": null
         }],
         "image": "https://kitty-fursbags.s3.eu-west-2.amazonaws.com/28.svg",
+        "image_alt_text":"The postman says 'I have to go', Kitty celebrates this as being full of meaning",
         "next": true,
         "next_scene_id": 29,
         "end":false
@@ -510,6 +539,7 @@
             "next_scene_id": null
         }],
         "image": "https://kitty-fursbags.s3.eu-west-2.amazonaws.com/29.svg",
+        "image_alt_text":"Kitty says goodbye to the postman, he thanks her for all he has learned",
         "next": true,
         "next_scene_id": 30,
         "end":false
@@ -527,6 +557,7 @@
             "next_scene_id": null
         }],
         "image": "https://kitty-fursbags.s3.eu-west-2.amazonaws.com/30.svg",
+        "image_alt_text":"Kitty decides she is much too tired to open her package or finish her mystery letter",
         "next": true,
         "next_scene_id": 300,
         "end":false
@@ -544,6 +575,7 @@
             "next_scene_id": null
         }],
         "image": "https://kitty-fursbags.s3.eu-west-2.amazonaws.com/24.svg",
+        "image_alt_text":"Kitty is sleeping in her sleeping bag",
         "next": null,
         "next_scene_id": null,
         "end":true
@@ -561,6 +593,7 @@
             "next_scene_id": null
         }],
         "image": "https://kitty-fursbags.s3.eu-west-2.amazonaws.com/31.svg",
+        "image_alt_text":"Kitty expresses sympathy and invites the postman to lunch with her gal pals, he politely declines",
         "next": true,
         "next_scene_id": 266,
         "end":false
@@ -578,6 +611,7 @@
             "next_scene_id": null
         }],
         "image": "https://kitty-fursbags.s3.eu-west-2.amazonaws.com/3.svg",
+        "image_alt_text":"Kitty tries on her new hat in the mirror",
         "next": true,
         "next_scene_id": 4,
         "end":false
@@ -595,6 +629,7 @@
             "next_scene_id": null
         }],
         "image": "https://kitty-fursbags.s3.eu-west-2.amazonaws.com/32.svg",
+        "image_alt_text":"Polly vomits all over the table",
         "next": true,
         "next_scene_id": 7,
         "end":false
